@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header, .hero {
+    background-image: url('./bgimage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff6600;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.packages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.package {
+    margin: 20px 0;
+}
+
+.package h3 {
+    font-size: 2em;
+    color: #333;
+}
+
+.package p {
+    font-size: 1em;
+    color: #666;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
